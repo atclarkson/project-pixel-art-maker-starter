@@ -1,6 +1,6 @@
 // Select color input
 var colorPick = document.getElementById("colorPicker");
-var color = #000000;
+var color = "#000000";
 colorPick.addEventListener("input", function() {
   color = this.value;
   console.log(color);
